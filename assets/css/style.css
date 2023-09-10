@@ -1,0 +1,132 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    border-width: 0;
+    background-color: white;
+}
+
+nav  {
+    display: flex;
+    flex-direction: column;
+    border-color: #e8ebe4;
+    border-style: solid;
+    border-width: 0px;
+    border-right-width: 3px;
+
+}
+
+.articulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    padding-inline: 27%;
+}
+
+/* Boton y sus Características */
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em;
+    border-color: #e8ebe4;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 4px;
+    font-family: 'Roboto';
+}
+#boton {
+    width: 210px;
+    padding: 2%;
+    background: #a491d2;
+    color: white;
+}
+#boton:hover {
+    background: #CDC3E6;
+    color: black;
+}
+#boton:focus {
+    background: #d4dcff;
+    color: white;
+}
+/* Boton y sus Características */
+
+/* Usuarios en Nav */
+.usuario {
+    display: flex;
+    padding: 5%;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: sans-serif;
+    border-color: #e8ebe4;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 4px;
+}
+.usuarios {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    border-color: #e8ebe4;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 4px;
+    font-family: sans-serif;
+}
+.activo {
+    display: flex;
+    flex-direction: row;
+}
+.status {
+    display: flex;
+    align-items: center;
+}
+.imagen_activa {
+    border-radius: 50%;
+    width: 2em;
+}
+.imagen_pasiva {
+    border-radius: 50%;
+    width: 3em;
+}
+.p_activa {
+    font-size: 10px;
+    padding-left: 10%;
+    color: gray;
+}
+.icono {
+    color: gray;
+}
+.p_nombre {
+    font-size: 18px;
+    padding-left: 10%;
+}
+p {
+    font-size: 14px;
+    width: max-content;
+    margin: 0%;
+    padding-left: 10%;
+}
+
+/* Usuarios en Nav */
+
+/* Partes del artículo */
+.imgart {
+    border-radius: 10%;
+    width: 50%;
+}
+h1 {
+    font-size: 45px;
+    margin-bottom: 0%;
+}
+.p_articulo {
+    font-size: 16px;
+    padding-left: 0%;
+    width: auto;
+}
+/* Partes del artículo */
+
